@@ -26,6 +26,46 @@ You can also:
 
 ShaCalendar is a lightweight Android library
 
+#How to
+
+To get a Git project into your gradle build:
+
+Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```
+	dependencies {
+	        implementation 'com.github.ShahulAndro:sha-calendar-android:1.0'
+	}
+
+```
+
+Please check the following for maven build
+Step 1. Add the JitPack repository to your build file
+```
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+Step 2. Add the dependency
+```
+	<dependency>
+	    <groupId>com.github.ShahulAndro</groupId>
+	    <artifactId>sha-calendar-android</artifactId>
+	    <version>1.0</version>
+	</dependency>
+```
+
 ### Examples
 ![](single_multiple_range_day_selection.gif)
 ```
