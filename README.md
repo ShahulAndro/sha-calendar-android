@@ -81,13 +81,13 @@ calendarPickerRecylerView.setLayoutManager(new LinearLayoutManager(this));
 calendarPickerRecylerView.initSettings().setSelectionMode(SelectionMode.SINGLE).apply().loadContent();
 ```
 
-Multiple selection mode is the default selection mode, you can set select modes via Calendar Settings like the following code
+Multiple selection mode with Calendar Settings
 ```
 CalendarPickerRecyclerView calendarPickerRecylerView = findViewById(R.id.calendar_recyclerview);
 calendarPickerRecylerView.setLayoutManager(new LinearLayoutManager(this));
 calendarPickerRecylerView.initSettings().setSelectionMode(SelectionMode.MULTIPLE).apply().loadContent();
 ```
-Range selection mode is the default selection mode, you can set select modes via Calendar Settings like the following code
+Range selection mode with Calendar Settings
 ```
 CalendarPickerRecyclerView calendarPickerRecylerView = findViewById(R.id.calendar_recyclerview);
 calendarPickerRecylerView.setLayoutManager(new LinearLayoutManager(this));
