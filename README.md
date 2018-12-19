@@ -7,6 +7,8 @@ Its easy to integrated and more userfriendly.
 Its not implemented with any thrid party libraries, its fully implemented on Android apis.
 It will save your plenty of time.
 
+ShaCalendar is a lightweight Android library
+
 # Features!
   - load the calendar by month and year
   - Single day selection
@@ -23,8 +25,6 @@ You can also:
   - Choose to display previous month days and next month days in the calendar
   - Can able to set and manage custom scroll listener
   - Library supports show or hide weekdays
-
-ShaCalendar is a lightweight Android library
 
 ### How to
 
@@ -48,6 +48,7 @@ dependencies {
 ```
 
 Please check the following for maven build
+
 Step 1. Add the JitPack repository to your build file
 ```
 <repositories>
@@ -95,7 +96,7 @@ calendarPickerRecylerView.initSettings().setSelectionMode(SelectionMode.RANGE).a
 ```
 ![](highlight_select_range_days.gif)
 
-you can highlight the day, group of days and clear the highlight daysat runtime, library supports the following methods
+you can highlight the day, group of days and clear the highlight days at runtime, library supports the following methods
 ```
 public void highlightDates(Date date)
 public void highlightDates(Collection<Date> dates)
@@ -130,7 +131,9 @@ you can give any date range within the calendar
 RTL Support:
 - programatically you can switch the rtl support
 - you can load rtl with settings->language->select any rtl support language as device language
+
 ![](rtl_support.gif)
+
 you can set your calendar setting for rtl support like the following
 ```
 public CalendarSettings setLocale(Locale locale)
@@ -150,9 +153,11 @@ calendarPickerRecylerView.
 ```
 
 You can test rtl support with setting in your device lanaguage setting like the following
+
 ![](rtl_support_from_settings.gif)
 
 Infinite Calendar loading:
+
 ![](infinite_calendar_load.gif)
 
 You can set Calendar settings to infinite load like the following
