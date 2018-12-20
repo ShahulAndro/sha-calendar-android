@@ -1,5 +1,8 @@
 # ShaCalendar
 
+[![Build Status](https://travis-ci.com/ShahulAndro/sha-calendar-android.svg?branch=master)](https://travis-ci.org/ShahulAndro/sha-calendar-android)
+
+
 ShaCalendar is new approach of displaying calendar as view or viewgroup in your apps.
 It used advanced framework to support and bring your app uptodate with new versions of Android.
 Its easy to integrated and more userfriendly.
