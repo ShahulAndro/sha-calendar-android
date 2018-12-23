@@ -71,7 +71,7 @@ Step 2. Add the dependency
 ```
 
 ### Examples
-![](single_multiple_range_day_selection.gif)
+![](gif/single_multiple_range_day_selection.gif)
 ```
 <com.sha.calendar.lib.view.CalendarPickerRecyclerView
         android:id="@+id/calendar_recyclerview"
@@ -97,7 +97,7 @@ CalendarPickerRecyclerView calendarPickerRecylerView = findViewById(R.id.calenda
 calendarPickerRecylerView.setLayoutManager(new LinearLayoutManager(this));
 calendarPickerRecylerView.initSettings().setSelectionMode(SelectionMode.RANGE).apply().loadContent();
 ```
-![](highlight_select_range_days.gif)
+![](gif/highlight_select_range_days.gif)
 
 you can highlight the day, group of days and clear the highlight days at runtime, library supports the following methods
 ```
@@ -135,7 +135,7 @@ RTL Support:
 - programatically you can switch the rtl support
 - you can load rtl with settings->language->select any rtl support language as device language
 
-![](rtl_support.gif)
+![](gif/rtl_support.gif)
 
 you can set your calendar setting for rtl support like the following
 ```
@@ -157,11 +157,11 @@ calendarPickerRecylerView.
 
 You can test rtl support with setting in your device lanaguage setting like the following
 
-![](rtl_support_from_settings.gif)
+![](gif/rtl_support_from_settings.gif)
 
 Infinite Calendar loading:
 
-![](infinite_calendar_load.gif)
+![](gif/infinite_calendar_load.gif)
 
 You can set Calendar settings to infinite load like the following
 ```
@@ -179,7 +179,7 @@ calendarPickerRecylerView.
 ```
 
 Library supports show or hide weekdays with the following Calendar Settings
-![](without_weekdays.gif)
+![](gif/without_weekdays.gif)
 ```
 public CalendarSettings setDisplayWeekDaysByMonth(boolean canDisplayWeekDays)
 ```
@@ -195,7 +195,7 @@ calendarPickerRecylerView.
 ```
 
 Library supports show or hide next/previous month days within calendar month with the following Calendar Settings
-![](previous_next_months_days.gif)
+![](gif/previous_next_months_days.gif)
 ```
 public CalendarSettings setDisplayPreviousNextMonthDaysByMonth(boolean canDisplayPreviousNextMonthDays)
 ```
